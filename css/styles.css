@@ -1,0 +1,114 @@
+/* общие */
+:root {
+--our-team-bg-color: #F5F4FA;
+--footer-bg-color: #2F303A;
+--primary-color: #212121;
+--secondary-color: #757575;
+--hero-color: #FFFFFF;
+--accent-color: #2196f3;
+--transparent-color: rgba(255, 255, 255, 0.6);
+}
+body {
+    background-color: #FFFFFF
+}
+ul{
+    list-style: none;
+}
+
+/* хедер */
+
+.header {
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #ECECEC;
+}
+.logo-header {
+    color: #000000;
+    text-decoration: none;
+}
+.web-logo {
+    color: var(--accent-color);
+}
+.navigation-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.navigation-link:hover,
+.header-contacts:hover {
+    color: var(--accent-color);
+}
+.navigation-link:focus,
+.header-contacts:focus {
+    color: var(--accent-color);
+}
+.header-contacts {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.current {
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--hero-color);
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--hero-color);
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+
+/* главный */
+.advantages-title {
+    color: var(--primary-color);
+}
+.advantage-description {
+    color: var(--secondary-color);
+}
+.section-title {
+    color: var(--primary-color);
+}
+.section-description {
+    color: var(--secondary-color);
+}
+.team {
+    background-color: var(--our-team-bg-color);
+}
+/* футер */
+.footer {
+    background-color: var(--footer-bg-color);
+}
+.logo-footer {
+    color: var(--hero-color);
+    text-decoration: none;
+}
+.map {
+    color: var(--hero-color);
+    text-decoration: none;
+}
+.contacts-footer {
+    color: var(--transparent-color);
+    text-decoration: none;
+}
+/* Портфолио */
+.filter-portfolio:hover {
+    background-color: var(--accent-color);
+    color: var(--hero-color);
+}
+.filter-portfolio {
+    background-color: var(--our-team-bg-color);
+    border: none;
+}
+.portfolio-first {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEEEEE;
+    width: 370px;
+}
