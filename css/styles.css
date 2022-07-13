@@ -42,17 +42,17 @@ body {
     line-height: 1.19;
 }
 
-.navigation {
+.navigation-link {
+    color: #212121;
+    text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.navigation-link {
-    text-decoration: none;
-}
 .navigation-link:hover,
 .header-contacts:hover,
-.contacts-footer:hover {
+.contacts-footer:hover,
+.map:hover {
     color: var(--accent-color);
 }
 .navigation-link:focus,
@@ -115,6 +115,7 @@ body {
     text-transform: uppercase;
 }
 .features-description {
+    color: var(--secondary-color);
     line-height: 1.71;
 }
 .features-work-title {
@@ -130,10 +131,6 @@ body {
 
 .size-thirty-six {
     font-size: 36px;
-}
-
-.features-description {
-    color: var(--secondary-color);
 }
 
 /* наша команда наша команда наша команда наша команда */
@@ -158,6 +155,7 @@ body {
     text-align: center;
 }
 .team-worker-speciality {
+    color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -179,10 +177,13 @@ body {
 .map {
     color: var(--hero-color);
     text-decoration: none;
+    line-height: 1.71;
 }
+
 .contacts-footer {
     color: var(--transparent-color);
     text-decoration: none;
+    line-height: 1.71;
 }
 /* Портфолио Портфолио Портфолио Портфолио Портфолио Портфолио */
 
@@ -200,6 +201,7 @@ body {
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
+    padding: 6px 22px;
 }
 .portfolio-first {
     border-style: solid;
@@ -216,4 +218,5 @@ body {
 .portfolio-description {
     font-size: 16px;
     line-height: 1.88;
+    color: var(--secondary-color);
 }
