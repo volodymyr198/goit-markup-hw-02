@@ -112,6 +112,7 @@ body {
 .features-title {
     font-weight: 700;
     line-height: 1.14;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .features-description {
@@ -127,10 +128,6 @@ body {
 .features-work-list {
 }
 .features-work-item {
-}
-
-.size-thirty-six {
-    font-size: 36px;
 }
 
 /* наша команда наша команда наша команда наша команда */
